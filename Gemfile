@@ -108,7 +108,7 @@ gem "strong_migrations", "~> 0.7" # Catch unsafe migrations
 gem "twilio-ruby", "~> 5.48" # The official library for communicating with the Twilio REST API
 gem "twitter", "~> 7.0" # A Ruby interface to the Twitter API
 gem "uglifier", "~> 4.2" # Uglifier minifies JavaScript files
-gem "ulid", "~> 1.2" # Universally Unique Lexicographically Sortable Identifier implementation for Ruby
+gem "ulid", "~> 1.3" # Universally Unique Lexicographically Sortable Identifier implementation for Ruby
 gem "validate_url", "~> 1.0" # Library for validating urls in Rails
 gem "vault", "~> 0.15" # Used to store secrets
 gem "wcag_color_contrast", "~> 0.1" # Detect contrast of colors to determine readability and a11y.
@@ -147,7 +147,7 @@ group :development, :test do
   gem "knapsack_pro", "~> 2.11.0" # Help parallelize Ruby spec builds
   gem "pry-byebug", "~> 3.8" # Combine 'pry' with 'byebug'. Adds 'step', 'next', 'finish', 'continue' and 'break' commands to control execution
   gem "rspec-rails", "~> 4.0" # rspec-rails is a testing framework for Rails 3+
-  gem "rubocop", "~> 1.10", require: false # Automatic Ruby code style checking tool
+  gem "rubocop", "~> 1.11", require: false # Automatic Ruby code style checking tool
   gem "rubocop-performance", "~> 1.9", require: false # A collection of RuboCop cops to check for performance optimizations in Ruby code
   gem "rubocop-rails", "~> 2.9", require: false # Automatic Rails code style checking tool
   gem "rubocop-rspec", "~> 2.2", require: false # Code style checking for RSpec files
@@ -172,7 +172,7 @@ group :test do
   gem "test-prof", "~> 1.0" # Ruby Tests Profiling Toolbox
   gem "timecop", "~> 0.9" # A gem providing "time travel" and "time freezing" capabilities, making it dead simple to test time-dependent code
   gem "vcr", "~> 6.0" # Record your test suite's HTTP interactions and replay them during future test runs for fast, deterministic, accurate tests
-  gem "webdrivers", "~> 4.5" # Run Selenium tests more easily with install and updates for all supported webdrivers
-  gem "webmock", "~> 3.11", require: false # WebMock allows stubbing HTTP requests and setting expectations on HTTP requests
+  gem "webdrivers", "~> 4.6" # Run Selenium tests more easily with install and updates for all supported webdrivers
+  gem "webmock", "~> 3.12", require: false # WebMock allows stubbing HTTP requests and setting expectations on HTTP requests
   gem "zonebie", "~> 0.6.1" # Runs your tests in a random timezone
 end
